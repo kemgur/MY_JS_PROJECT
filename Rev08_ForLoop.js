@@ -27,3 +27,7 @@ for(var counter5=0; counter5<10; counter5++){
     console.log(random);
 }
 
+for(){
+    
+}
+
