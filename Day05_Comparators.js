@@ -4,7 +4,8 @@ Comparisons
 NOTE: 
  === and !== check values and data types
  NOTE: 
-JS converts string values to number value when we compare them
+JS converts string values to number value when we compare them.
+//JS, onları karşılaştırdığımızda dize değerlerini sayı değerine dönüştürür.
 */
 console.clear();
 const x=1;
