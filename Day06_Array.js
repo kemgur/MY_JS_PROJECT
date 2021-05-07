@@ -95,4 +95,11 @@ console.log(fruitFood);
 ​
 fruitFood.splice(1,2,"pizza","steer","beef");
 console.log(fruitFood);
+
+
+
+
+
+
+
 ​
