@@ -32,10 +32,30 @@ function Car(brand, model, year){
   console.log(carConstructor.brand);//"Tesla"
   console.log(carConstructor.model);//"model 3"
   console.log(carConstructor.year);//2020
-  
+
   const carConstructor1=new Car('BMW','E3000', 2021);
   console.log(carConstructor1);
   console.log(carConstructor1.brand);//"BMW"
   console.log(carConstructor1.model);//"E3000"
   console.log(carConstructor1.year);//2021
   
+  /**
+   person2
+“Jim”
+23
+FALSE
+[“English”,”German”]
+9:47
+Properties
+Name
+Age
+hasWorkPermit
+Languages
+   */
+function person(Name, Age, hasWorkPermit,Languages){
+    return {//We can return object in JS
+        Name, Age, hasWorkPermit,Languages
+    };
+  }
+const personConstructor=new person('Jim',false, 2020,['English','German']);
+console.log(personConstructor);
