@@ -1,0 +1,29 @@
+<!-- Given that x = 6 and y = 3, the table below explains the logical operators:
+(X = 6 ve y = 3 olduğu için, aşağıdaki tablo mantıksal operatörleri açıklamaktadır:)
+
+Operator	Description	     Example	
+
+   ||	       or	         (x === 5 || y === 5) is false	
+-->
+   <!DOCTYPE html>
+<html>
+<body>
+
+<p>The OR operator (||) returns true if one or both expressions are true, otherwise it returns false.</p>
+
+<p id="demo"></p>
+
+<script>
+var x = 6;
+var y = 3;
+
+document.getElementById("demo").innerHTML = 
+(x === 5 || y === 5) + "<br>" + 
+(x === 6 || y === 5) + "<br>" + 
+(x === 6 || y === 3);
+</script>
+
+</body>
+</html>
+
+   
