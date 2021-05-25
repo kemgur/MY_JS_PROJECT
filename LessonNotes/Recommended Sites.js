@@ -12,3 +12,5 @@
 06) https://picsum.photos/
 
 07) https://github.com/airbnb/javascript/tree/master/react
+
+08) https://www.w3schools.com/tags/ref_eventattributes.asp
