@@ -1,4 +1,4 @@
-console.clear();
+ console.clear();
 //1. Get one side of the square from the user 
 //and print the area of the square on the console
 var side=prompt('Enter one side of the square')

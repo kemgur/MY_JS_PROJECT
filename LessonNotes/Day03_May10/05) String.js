@@ -19,3 +19,10 @@ var age=30;
 
 console.log('First Name : '+fName+' '+'Last Name : '+lName+ ' '+'Age : '+age);
 console.log(`First Name : ${fName} Last Name : ${lName} Age : ${age}`)
+
+/**
+ BACKTICK (`) • In addition to Single (') or Double (") quotes We can use backtick (`)ile de string to create strings
+• `string`
+• `string ${variable} string`
+ */
+ 
