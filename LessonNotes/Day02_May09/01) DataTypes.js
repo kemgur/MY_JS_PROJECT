@@ -45,3 +45,17 @@ var selectedCar=null;
 console.log(selectedCar);
 console.log(typeof(selectedCar))
 
+/**
+ What is the difference between null and undefined?
+ 1) Null is avalue(object)
+ 2) Null assigned but has no actual value like string
+ 2) Null atanmış ancak dize gibi gerçek bir değeri yok
+ 3) Undefined : A variable is declared but it is not assigned or intialized.
+ 3) Undefined: Bir değişken bildirildi ancak atanmadı veya başlatılmadı.
+ */
+
+ /**
+  var
+  let
+  const 
+  */

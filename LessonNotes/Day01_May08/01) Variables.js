@@ -60,3 +60,19 @@ console.log(typeof(num2));//"string"
 var isExist = true;
 console.log(isExist);//true
 console.log(typeof(isExist));//Boolean
+
+//Undenined
+var num3;
+console.log(num3);//undefined
+console.log(typeof(num3));//"undefined
+
+var num4= undefined;
+//iy's not necessary to initialize 'num4' to 'undefined';
+var num4;
+console.log(typeof(num));"undefined"
+
+
+//Null
+var selectedCar = null;
+console.log(selectedCar);//null
+console.log(typeof(selectedCar));// "object"
