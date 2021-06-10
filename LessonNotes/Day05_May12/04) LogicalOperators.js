@@ -21,5 +21,18 @@ console.log(!z);//true
 console.log(null);//null
 console.log(!null);//true. cause we are making comparison
 
-
+let s2 = true;
+let s3 = true;
+console.log(s2 && true); // true
+console.log(s2 && s3); // true
+console.log(s2 && s3 && false); // false
+s3 = false;
+console.log(s2 || s3 || false); // true
+s3 = null;
+console.log(s2 && s3); // null
+console.log(s2 || s3); // true
+console.log(!s2); // false
+console.log(!s3); // true
+s3 = null;
+console.log(!s3); // true
 

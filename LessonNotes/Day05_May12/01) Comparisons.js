@@ -1,10 +1,10 @@
 /*
-Comparisons
+Comparisons(Karşılaştırmalar)
 NOTE: 
  === and !== check values and data types
  NOTE: 
 JS converts string values to number value when we compare them
-*/
+*/ 
 console.clear();
 const x=1;
 console.log(typeof(x));//number
