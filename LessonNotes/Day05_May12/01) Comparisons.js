@@ -18,3 +18,7 @@ console.log(x===y);//false. comparing the values and types
 console.log(x!==y);//true
 console.log(x>=1);//true
 console.log(y>=1);//true
+
+console.log(null);//null
+console.log(!null);//true
+
