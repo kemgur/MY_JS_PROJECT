@@ -1,27 +1,27 @@
 /*
 Functions:
 A function performs a task or calculate a value
+Bir function bir görevi gerçekleştirir veya bir değer hesaplar
 */
 //1. Declaring Functions:
 console.clear();
 function greet(){
   console.log('Hi How are you');
 }
-
 //2. Calling the function:
 greet();//"Hi How are you"
 
 
 //3. Creating a function with a parameter
+//   Parametre ile fonksiyon oluşturma
 function greetPeople(name){
   console.log(`Hi ${name}`);
 }
-
 greetPeople('Ahmet');//"Hi Ahmet"
 
 //4. creating a function with multiple parameters
 function personInfo(firstName,lastName,age,isOld){
-  console.log(`My Name : ${firstName}. Last Name : ${lastName}. Age : ${age}. Old or Not : ${isOld}`);
+  console.log(`My Name : ${firstName}, Last Name : ${lastName}, Age : ${age}, Old or Not : ${isOld}`);
 }
 
 personInfo('John','Walker',50, false);//"My Name : John. Last Name : Walker. Age : 50. Old or Not : false"

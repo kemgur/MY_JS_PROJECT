@@ -15,12 +15,16 @@ function sum(a){
   return a+100;
 }
 //to get the value from this function, we use function name
+//bu fonksiyondan değer almak için fonksiyon adını kullanırız
+
 console.log(sum(9));//109
 //I can use variable to use the normal function
 var sumResult=function(a){//anonymous function
   return a+100;
 }
 console.log(sumResult(10));//110
+
+
 //ARROW FUNCTION CASE 1
 //. 1. MUST. Remove function keyword and use => symbol between input and body
 var arrow=(a)=>{

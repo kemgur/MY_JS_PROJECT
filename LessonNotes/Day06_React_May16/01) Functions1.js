@@ -5,10 +5,10 @@ function sum(){
     var total=num1+num2;
     return total;
   }
-  
   console.log(sum());//9
   
-  //using result variable to get the outcome of sum() function
+  //using result variable to get the outcome(sonucu) of sum() function
+  //sum() function'in sonucunu almak için result variable'ni kullanma
   const result=sum();
   console.log(result);
   

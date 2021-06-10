@@ -8,6 +8,7 @@ function add(a,b){
 add(4,2);//6
 
 //We can declare a function without a name
+//İsimsiz bir fonksiyon bildirebiliriz.
 var diff=function(x,y){
   var d = x-y;
   console.log(d);
@@ -16,6 +17,7 @@ var diff=function(x,y){
 diff(3,4);//-1
 
 //create a anonymous function with 3 parameter 
+//3 parametreli anonim bir işlev oluşturun
 //and put in a variable named sum
 //print the result using sum.
 //arguments: 4,5,6 -> 15
