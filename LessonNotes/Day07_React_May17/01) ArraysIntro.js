@@ -1,9 +1,30 @@
 console.clear();
+//If a key has a function as value, it’s a method
+//Bir anahtarın değer olarak bir işlevi varsa, bu bir yöntemdir.
+/**
+ [] => used to create array
+var prices=[6,10,14,0,7];
+
+var prices=[6,10,14,0,7];
+var myPrice=prices[1]; ==> 10
+prices.lenght; ===>5
+prices.includes(10);===> true
+
+So far we have seen we can store single data as string, number, or boolean
+How can we store collection of related items into the same container or
+the same variable:ARRAY
+
+Arrays are the collection of the items that are related
+We can use array when we store similar items in a single variable
+ */
+
 /*
 Arrays:::::
 Arrays are special type of object
 In objects, we use keys to access the values
+Object'lerde, değerlere erişmek için key'leri kullanırız.
 In arrays, we use index to acces the values
+Array'lerde, değerlere erişmek için indeks'i kullanırız.
 */
 //Declaring Arrays:
 var friendList=['sam','tom','tim','jacob'];

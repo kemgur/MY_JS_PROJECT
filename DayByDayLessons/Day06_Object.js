@@ -1,7 +1,22 @@
+/*In real life, a car is an object.
+A car has properties like weight and color,
+and methods like start and stop,
+
+in js Three Referans(Data) Types
+You know core of functional Programining
+1)Function
+2) Object
+3) Array
+*/
+var fName ='John';
+var lName = 'Cahs';
+var age = 30;
+console.log(`${fName} ${lName} ${age}`);//"John Cahs 30"
+
 //Object
 var color ="red";
 var made = "toyota";
-var year=2010;
+var year=2010;  
 
 console.log(color);
 console.log(made);
@@ -35,19 +50,29 @@ console.log(person.married);//true
 
 //==========
 //Update
+/*
+There are 2 ways to change the properties of the objects
+1) Dont notation
+2) braket notation
+*/
 person.name="kemal";
 console.log(person);
 person.surname="yildiz";
 person.age=35;
 
+//Changing the lName of person using [] notation
+//it is less comman
 person['name']="Halil";
-person['surname'="Dogan"];
+person['surname']="Dogan";
 person['age']=40;
 console.log(person);
 
 person.job="IT Manager";//person da job ve city yoksa ekler
 person.city="New York";//person da city varsa update eder.
 
+//person['fName']='Nancy';
+var selection = 'fName';
+person[selection]='Nancy'; 
 //===============
 var user={
     person1:{
@@ -79,6 +104,8 @@ console.log(user[1]);//undefined
 console.log(user.person4.language);//"English, Turkish, Spanish"
 console.log(user.person4.language[2]);//"Spanish"
 
+
+//.notation is more comman and usefull
 //====================
 //Array
 

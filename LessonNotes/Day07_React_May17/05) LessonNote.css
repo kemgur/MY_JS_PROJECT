@@ -1,18 +1,19 @@
-.heading{
-    color: red;
-    font-size: 35px;
+.heading {
+  color: red;
+  font-size: 35px;
 }
-.img-mountain{
-    width: 150px;
-    border-radius: 25px;
+.img-mountain {
+  width: 150px;
+  border-radius: 25px;
 }
-.img-kebab{
-    width: 100px;
-    height: 100px;
-    margin-left: 15px;
-    margin-right: 15px;
-    border-radius: 25px;
+.img-kebab {
+  width: 100px;
+  height: 100px;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 25px;
 }
-.img-cat{
-    width: 100px;
-    border-radius: 25px;
+.img-cat {
+  width: 100px;
+  border-radius: 25px;
+}
