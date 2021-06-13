@@ -28,6 +28,12 @@ var ages=[10,34,21,19,10];
 console.log(ages)
 console.log(typeof(ages));
 
+var isTrue = Array.isArray('Nicola');
+console.log(isTrue);//False
+
+var isTrue = Array.isArray('tom');
+console.log(isTrue);//False
+
 //5.isArray -> checks if the variable is an array or not
 const isTrue=Array.isArray(ages);
 console.log(isTrue);//true
@@ -39,6 +45,7 @@ console.log(Array.isArray('30'));//false
 //   Note: returns -1 if there is no matching item in the array
 console.log(ages.indexOf(10));//0
 console.log(ages.indexOf(10,1));//4. start looking at 10 starting from index if 1
+//Birinci dizeden itibaren bak ve  10 sayisinin indexini yazdir. 
 console.log(ages.lastIndexOf(10));//4
 console.log(ages.indexOf(19));//3
 console.log(ages.indexOf(1));//-1

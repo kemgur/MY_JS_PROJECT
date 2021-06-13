@@ -3,8 +3,7 @@ var drinks = ['water', 'coke','soda','fanta'];
 var snacks= ['doritos','sunchips','lays','ruffles'];
 
 var shoppingList = drinks.concat(snacks);
-console.log(shoppingList);//["water", "coke", "sode", "doritos", "sunchips", "lays"]
-
+console.log(shoppingList);//["water", "coke", "soda", "fanta", "doritos", "sunchips", "lays", "ruffles"]
 
 //10. slice (start-INCLUDED, end-EXCLUDED);
 const favDrinks=drinks.slice(1,3);

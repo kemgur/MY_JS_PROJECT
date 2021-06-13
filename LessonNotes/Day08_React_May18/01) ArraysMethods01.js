@@ -5,7 +5,7 @@ var fruits=['apple','orange','banana',false,10];
 //index.     0.       1.       2.      3.    4
 console.log(fruits);//["apple", "orange", "banana", false, 10]
 
-//8. splice(startindex,number of item you want to delete )
+//8. splice(siplays)(birbirine ekleme)(startindex,number of item you want to delete )
 fruits.splice(2,1);//start index=2,number of item to be deleted =1
 console.log(fruits);
 //fruits.splice(0,2);//remove the first 2 items
