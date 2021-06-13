@@ -13,12 +13,12 @@ var sumResult=function(a){//anonymous function
 console.log(sumResult(10));//110
 
 //ARROW FUNCTION CASE 1- function with one argument
-//1. MUST. Remove function keyword and function name; and use => between the input and body
+//1. MUST. Remove "function" keyword and function name; and use => between the input and body
 var arrow=(a)=>{
   return a+100;
 }
 console.log(arrow(11));//111. Works fine,but we can make the code shorter
-//2. OPTIONAL. We can delete curly braces and return keyword 
+//2. OPTIONAL. We can delete "curly braces" and "return" keyword 
 var arrow=(a)=> a+100;
 console.log(arrow(12));//112. Works fine, but I can make the code shorter, IF THERE IS ONLY ONE PARAMETER
 //3. OPTIONAL. We can remove the paranthesis around the input
@@ -63,14 +63,5 @@ var sumResult2=function(){
 }
 console.log(sumResult2());//230
 
-//Writing as Arrow function
-//1. MUST. Remove function keyword and function name; and use => between the input and body
-var arrow2=()=>{
-  return x+y+200;
-}
-console.log(arrow2());//230
-//2. OPTIONAL. We can delete curly braces and return keyword 
-var arrow2=()=> x+y+200;
-console.log(arrow2());//230
 
 

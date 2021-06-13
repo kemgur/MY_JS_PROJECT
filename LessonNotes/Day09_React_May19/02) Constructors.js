@@ -25,6 +25,7 @@ function car(brand, model, year){
   //DEFINING CONSTRUCTORS IN JS
   function Car(brand, model, year){
     //this keyword is a reference to the object in the code
+    //"this" keyword, koddaki nesneye bir referanstır
     this.brand=brand;
     this.model=model;
     this.year=year;
