@@ -1,7 +1,10 @@
 /*
-Spread operator is ued to combine arrays.
+Spread operator is used to combine arrays.
 USE ... in front of the array to use spread operator
 Similar to concatanation
+Yayılma operatörü, dizileri birleştirmek için kullanılır.
+KULLANIM ... yayılma operatörünü kullanmak için dizinin önünde
+birleştirmeye benzer 
 */
 
 const fruits=['Apple','Kiwi','Cherry','Banana'];

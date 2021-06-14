@@ -1,8 +1,10 @@
 /*
 FIND AND FINDINDEX 
-Find: Loops throught the arrya
+Find: Loops throught the array
 and returns the first item that matches the condition
-*/
+Bul: Array boyunca döngüler
+ve koşulla eşleşen ilk öğeyi return eder.
+*/ 
 
 //Find the FIRST number that is greater than 10
 var numbers=[3,56,2,48,5];

@@ -2,8 +2,15 @@
 Reduce:
 Accumulates/adding the values inside the array
 Similar to map reduce.
+Azalt:
+Dizi içindeki değerleri toplar/ekler
+map'teki gibi küçültmeye benzer.
+
 Difference is this reduce function iterates + accumulates array values
 Reduce hold on to the current value and add to the previous SUM
+Fark, bu azaltma işlevinin yinelenmesi + dizi değerlerini biriktirmesidir
+Mevcut değere tutunmayı azaltın ve önceki SUM'a ekleyin
+
 Array.reduce((accumulator,item)=>{
 function body
 }
@@ -30,7 +37,7 @@ var result = numbers.reduce(
   }
 )
 
-console.log('RESULT : '+result);//"RESULT : 114". 
+ //"RESULT : 114". 
 //The sum of all numbers inside the array= 3+56+2+48+5 =114
 
 
