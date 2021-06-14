@@ -11,6 +11,7 @@ for(let i=0;i<=5;i++){
   
   
   //We use loops to iterate through the arrays
+  ///Diziler arasında yineleme yapmak için döngüler kullanırız
   const todos=[
     {
       id:1,

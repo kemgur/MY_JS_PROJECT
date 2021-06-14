@@ -3,6 +3,9 @@
 Filter Function
 Filter takes each number inside the array
 returns that meets with specific condition
+Filtre İşlevi
+Filtre, dizinin içindeki her sayıyı alır
+belirli koşullara uyan iadeler
 */
 var  numbers=[3,56,2,48,5];
 //how do we get the numbers that is only greater than 10

@@ -1,5 +1,5 @@
 // Traditional Function
-function (a){
+function fn(a){
     return a + 100;
   }
   
