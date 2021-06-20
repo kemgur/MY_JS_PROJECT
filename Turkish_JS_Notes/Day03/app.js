@@ -48,7 +48,7 @@ if(islem =='+'){
 }
 console.log(`${sayi1} ${islem} ${sayi2} = ${sonuc}`);
 */
-
+//?=============================
 /*
 let clickButton = document.getElementById("button");
 clickButton.addEventListener("click", function weekDay() {
@@ -87,5 +87,37 @@ HTML Codes:
  Enter a number: <input type="text" id="numberDay">
 <button id="button">OK</button>
 */
+  //?=============================
+/*
+var p1 = 5;
+var p2 = 7;
+document.getElementById("myBtn").addEventListener("click", function() {
+    myFunction(p1, p2);
+});
+function myFunction(a, b) {
+    var sonuc = a * b;
+    document.getElementById("demo").innerHTML = sonuc;
+}
+*/
+//?=============================
+/*
+const borc =0;
+const maas =3000;
+console.log(!borc && maas>2825.6 ? "Kredi Alabilir ": "Kredi alamaz ¯\_(ツ)_/¯");
+*/
+//?=============================
+//Asal Sayi2
+const number = 7//Number(prompt('Sayi giriniz'));
 
+let asal=true;
+for(let i =2; i<number;i++){
+    if(number%i==0){
+        asal=false;
+        break;
 
+    }else{
+        asal=true;
+    }
+}
+const result = asal ? "ASAL":"ASAL DEgIL";
+console.log(result);
