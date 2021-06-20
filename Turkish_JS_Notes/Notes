@@ -1,0 +1,21 @@
+1)
+console.log('Hello Javascript');
+console.error("Bu bir hatadir");
+console.warn('Bu bir uyaridir.')
+
+2)
+alert('Dikkat');
+
+3)
+//const ve let yeni degisken tanimlama keyword'laridir.
+//const:Sadece baslangicta deger atanabilir. Sonradan degeri degistirelemez.
+//let: Block-scop bir degiskendir. Var ise global-scope bir degiskendir.
+Block-scope sadece tanimli oldugu alanda gecerlidir.
+
+4)
+Template Literal (String Sablonlari ES6 ile gelmistir.)
+const ad="Mesut";
+const yas="55";
+console.log(`Benim adim ${ad}` yasim ${yas}dir`);
+Template literals are enclosed by the backtick (` `) character instead of double or single quotes.
+Template literals are enclosed by the backtick (` `) character instead of double or single quotes.
