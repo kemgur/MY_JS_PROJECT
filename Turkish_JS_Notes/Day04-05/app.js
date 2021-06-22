@@ -47,7 +47,7 @@ const u = prompt('Ust giriniz');
 
 const usAl = (t,u)=> t**u;
 console.log(usAl(t,u));
-*/
+
 //?====================
 //! Menu
 const menu =()=>{
@@ -64,3 +64,4 @@ const bilgiVer =(ad, soyadi, dogum)=>{
     return bilgi;
 }
 console.log(bilgiVer("kemal", "gur" ,1990));
+*/
