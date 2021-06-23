@@ -13,3 +13,16 @@ document.querySelector(".resim").addEventListener("mouseover", ()=>{
 document.querySelector(".resim").addEventListener("mouseout",function(){
     document.querySelector(".resim").src = "./imgBulb/bulb off.jpeg"; 
 })
+
+// Klavyeden her tusa basildiginda bu fonksion calisacak
+document.querySelector(".textbox").onkeyup =function(){
+    const checkbox = document.querySelector(".checkbox");
+    const textbox = document.querySelector(".textbox");
+
+    if(checkbox.checked==true){
+       textbox.value = textbox.value.toUpperCase();
+
+    }else{
+        
+    }
+}
