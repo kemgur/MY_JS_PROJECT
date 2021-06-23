@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>A function is triggered when the user releases a key in the input field. The function transforms the character to upper case.
+    Kullanıcı giriş alanında bir tuş bıraktığında bir işlev tetiklenir. İşlev, karakteri büyük harfe dönüştürür.
+</p>
+Enter your name: <input type="text" id="fname" onkeyup="myFunction()">
+
+<script>
+function myFunction() {
+  var x = document.getElementById("fname");
+  x.value = x.value.toUpperCase();
+}
+</script>
+
+</body>
+</html>
+
+<!-- Definition and Usage
+The onkeyup event occurs when the user releases a key (on the keyboard).
+Onkeyup olayı, kullanıcı (klavyede) bir tuşu serbest bıraktığında meydana gelir.
+
+Tip: The order of events related to the onkeyup event:
+İpucu: onkeyup olayıyla ilgili olayların sırası:
+
+onkeydown=>Tusa bas
+onkeypress=> Basili tut
+onkeyup=> Tusu serbest birak 
+ -->

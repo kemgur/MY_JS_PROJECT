@@ -15,14 +15,14 @@ document.querySelector(".resim").addEventListener("mouseout",function(){
 })
 
 // Klavyeden her tusa basildiginda bu fonksion calisacak
+//Yeni ogrenilen 3 kavram: onkeyup, checked , value
 document.querySelector(".textbox").onkeyup =function(){
     const checkbox = document.querySelector(".checkbox");
     const textbox = document.querySelector(".textbox");
 
     if(checkbox.checked==true){
        textbox.value = textbox.value.toUpperCase();
-
     }else{
-        
+        textbox.value = textbox.value.toLowerCase();
     }
 }
