@@ -1,0 +1,19 @@
+.btn{
+    background-color: antiquewhite;
+    width: 250px;
+    height: 50px;
+    border: black;
+    font-size: 25px;
+    border-radius: 10px;
+    
+      
+}
+.btn:hover{
+    background-color: brown;
+}
+div{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 400px;
+
+}

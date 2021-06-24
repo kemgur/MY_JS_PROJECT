@@ -53,12 +53,26 @@ meyveler.splice(1,0,"Erik");//(7) ["Incir", "Erik", "Armut", "Kayisi", "Muz", "
 //Karpuzu sil onun yerine "Mango" yaz.
 meyveler.splice(5,1,"Mango");
 
-
-
-
-
 console.log(meyveler);
 h1.innerHTML =meyveler;
 
-//innerHTML, 
+//==========Dizi Ersim Methodlari===========
+const sayilar = [3,4,6,"bes", 2, "bir","2",5];
+console.log(sayilar.includes(5));//true
+
+//join() dizinini elemanlarini birlestirip stringe cevirir
+const sayilar1 = sayilar.join(" ");
+console.log(sayilar1);
+
+//toString() elemanlarin arasina virgul koyarak strige cevirir.
+const sayilar1 = sayilar.toString();
+console.log(sayilar1);
+
+//indexOf() ilk eslesen indexi dondurur
+
+
+
+
+
+
 
