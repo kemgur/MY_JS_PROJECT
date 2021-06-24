@@ -13,6 +13,6 @@ document.querySelector(".renk").addEventListener("click", ()=>{
     const renkler= ["red","blue", "green","yellow","black","pink","purple"];
     const rasgeleSayi = Math.floor(Math.random()*(renkler.length));
     document.querySelector("body").style.backgroundColor = renkler[rasgeleSayi];
-    document.querySelector(".renk-yazi").innerHTML =renkler[rasgeleSayi]
-
+    document.querySelector(".renk-yazi").innerHTML =renkler[rasgeleSayi];
+    document.querySelector("h1").style.color=renkler[rasgeleSayi];
 });
