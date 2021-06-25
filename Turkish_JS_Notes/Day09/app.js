@@ -68,7 +68,7 @@ let sum=0;
  console.log(sum);
 //  document.querySelector(".toplam").innerHTML =sum +" TL";
  document.querySelector(".toplam").innerHTML =`${sum} TL`;
- */
+
 
  //=========Sample-4 For Each Indis Dongusu==========
  const fiyatlar=[200,300,125,450,333];
@@ -80,3 +80,23 @@ let sum=0;
 }); 
  console.log(sum);
  document.querySelector(".toplam").innerHTML =`${sum} TL`;
+
+
+ //=========MAP METHODU==========
+ //Map() her zaman bir deger dondurur.
+ //Dizinin her bir elemanin 2 katini alin
+  const num =[3,4,3,2,6,7,9];
+  const double = num.map((x)=>x*2);
+  console.log(double);
+  console.log(num,double);
+ */
+//Isimler disizini her bir elemani buyuk harfle yazdir
+const names = ["Ali","Veli", "Can", "Tomy","Bret"];
+
+const upper = names.map((names)=>names.toUpperCase());
+console.log(upper);
+//Her bir ismi ayri ayri yazdir
+upper.forEach((names)=> console.log(names));
+
+//map() ile  forEach() birlestirip yazarsak upper a gerek yoktur.
+names.map((names)=>names.toUpperCase()).forEach((names)=> console.log(names));
