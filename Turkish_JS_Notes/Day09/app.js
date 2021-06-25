@@ -49,7 +49,7 @@ for(let i in nums){
 }
 console.log(`Sum of positive numbers in string: ${poz}
              Sum of negatif numbers in string: ${neg}`);
- */
+
 //=========Sample-4 For Each Dongusu==========
 let ogrenci =["Ali","Veli","Can"];
 function yazdir(a){
@@ -61,3 +61,22 @@ ogrenci.forEach(yazdir);//Ogrencilerin her birini tek tek alir ve console yazdir
 ogrenci.forEach((x)=> console.log(x));
 
 
+//=========Sample-4 For Each Dongusu==========
+ const fiyatlar=[200,300,125,450,333];
+let sum=0;
+ fiyatlar.forEach((f)=> (sum+=f));
+ console.log(sum);
+//  document.querySelector(".toplam").innerHTML =sum +" TL";
+ document.querySelector(".toplam").innerHTML =`${sum} TL`;
+ */
+
+ //=========Sample-4 For Each Indis Dongusu==========
+ const fiyatlar=[200,300,125,450,333];
+let sum=0;
+ fiyatlar.forEach((f,i,d)=>{
+     console.log(`${i} iterasyon : ${sum}`);
+
+(sum+=f)
+}); 
+ console.log(sum);
+ document.querySelector(".toplam").innerHTML =`${sum} TL`;
