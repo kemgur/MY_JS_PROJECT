@@ -19,6 +19,7 @@ console.log(Person.prototype);
 //Nesnelerde key-value(property-value )  yapisi lullanilir
 //Nesnelerde aradigimiz veriyie erismek icin property adini kullanmak yeterlidir.
 
+//Object literal
 const insan ={
     adi :"Ali",
     soyadi: "Can",
@@ -40,8 +41,9 @@ const yazi = "Adim";
 console.log(`${yazi} ${insan.adi} ve yasim ${insan["yas"]}`);
 //Adim Ali ve yasim 30
 
-//const bilgiSecimi = prompt("insan hakkinda ne bilmek istersin?"
-);
+/*
+const bilgiSecimi = prompt("insan hakkinda ne bilmek istersin?");
+
 
 if(insan[bilgiSecimi]){
     console.log(insan[bilgiSecimi]);//adi//Ali
@@ -52,4 +54,33 @@ if(insan[bilgiSecimi]){
     );
 }
 
+
 //insan objesine nasil veri  eklenir.
+insan.konum = "Turkiye";
+insan.email = "insan@gmail.com";
+insan["dogumTarihi"]=1990;
+console.log(insan);
+
+*/
+//======Nesne Methodlari=============
+const kisi ={
+    adi: "Ahmet",
+    soyadi: "Can",
+    dogumTarihi: 1990,
+    meslek: "tester",
+    tool:"selenium",
+    ehliyet:true,
+    yasHesapla : function(){
+        console.log(this);//this kisi objesindeki her seyi cagirabilir.
+        return new Date().getFullYear() - this.dogumTarihi;
+    },
+
+    ozet: function(){
+     return `${this.adi} ${this.soyadi} ${this.yasHesapla()} yasindadir.
+             Meslegi ${this.meslek}likdir`;
+},
+};
+console.log(kisi.ozet());//Ahmet Can 31 yasindadir.Meslegi testerlikdir
+
+
+//=======Nesne Iterasyon Ornekleri
