@@ -1,0 +1,48 @@
+<!--
+    JAVASCRİPT EKRAN ÇIKTILARI
+
+JavaScript'de herhangi bir yerleşik baskı veya görüntüleme fonksiyonları yoktur.
+Javascript farklı şekillerde ekrana yazma olanakları vardır.
+ Bunlar aşağıda liste halinde yer almaktadır.
+
+1) window.alert () : Kullanarak ekrana yazma
+-> Verileri goruntulemek icin bir uyari kutusu kullanabiliriz
+window.alert("Hello world!");
+
+2) document.write () : Kullanarak HTML çıkışına yazma,
+test amacli kullanima uygundur.
+HTML dokümanının tamamen yüklendikten sonra document.write(); 
+tum HTML elementlerini siler ve ekrarana mesaj yazar.
+
+3) innerHTML : Kullanarak, bir HTML elemanı içine yazma
+Bu yöntemle herhangi bir HTML  elamanı seçilerek mesaj yazılabilir.
+document.getElementById("demo").innerHTML = 5+6;//11
+<p id="demo"></p>
+
+4) console.log () : Kullanarak, tarayıcı konsol içine yazma
+Tarayicida verileri goruntulemek icin console.log() kullanabiliriz. 
+F12 ile tarayici konsolu etkinlestirilir.
+console.log("Hello World!!");
+
+
+Diger console ozellikleri:
+console.info(): Web Konsolu bir bilgilendirme mesajı verir. 
+Firefox ve Chrome, küçük bir "i" simgesi Web Konsolu günlüğüne bu öğelerin yanında görüntülenir.
+
+console.error() : Web Konsolu bir hata mesajı verir.
+
+console.warn() : Web Konsolu için bir uyarı mesajı verir.
+ Not: Firefox, uyarılar yanlarında Web Konsolu günlüğüne küçük bir ünlem simgesi var.
+
+console.info("Bilgilendirme");
+
+console.log("merhaba dünya");
+
+console.warn("Dikkat hatalı işlem");
+
+console.error("Dikkat hata");
+
+HTML'e exturnel js eklemek icin:
+<script type="text/javascript" src="deneme.js"></script>
+
+-->

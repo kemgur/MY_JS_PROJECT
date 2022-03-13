@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+       confirm komutu:  onay iletişim kutusu çoğunlukla herhangi bir seçenekde,
+        kullanıcının onayını almak için kullanılır.
+        İki buton içeren (Tamam/Iptal) bir iletisim kutusu goruntulenir. 
+        Tamam "true", Iptal "False" anlamina gelir
+
+        Iki sekilde kullanilabilir:
+        var isim = window.comfirm("Eminmisiniz");
+        var isim = comfirm("Eminmisiniz");
+    -->
+    
+    <script>
+        function funk(){
+
+            var x = confirm("cikmak istediginize emin misiniz?");
+            if(x){
+                alert("Gule gule")
+                location("http://www.google.com");
+            }
+            else{
+                alert("Tesekkur ederiz")
+            }
+           
+        }
+    </script>
+    <input type="button" onclick="funk()" value="cikmak istiyorum">
+</body>
+</html>
