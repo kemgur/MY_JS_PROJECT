@@ -28,10 +28,38 @@
             }
             else{
                 alert("Tesekkur ederiz")
-            }
-           
+            } 
+            document.getElementById("demo").innerHTML = txt;
         }
     </script>
     <input type="button" onclick="funk()" value="cikmak istiyorum">
+    <p id="demo"></p>
+
+    <!--
+        Diger bir ornek.
+    <script>
+        function dene() {
+
+var txt;
+
+var r = confirm("Deneme için tıkla düğmesine bas !\n
+                 Tamam veya iptal düğmesie basın.\n
+                 Sonucu Tıkla butonun altına yazacak ");
+
+if (r == true) {
+
+    txt = "Tamam düğmesine bastın!";
+
+} else {
+
+    txt = "İptal düğmesine bastın!";
+}
+
+document.getElementById("demo").innerHTML = txt;
+}
+    </script>
+    <button onclick="dene()">Tıkla</button>
+    <p id="demo"></p>
+    -->
 </body>
 </html>
